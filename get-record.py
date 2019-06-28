@@ -1,5 +1,4 @@
 # Copyright 2019 Cloudera, Inc.
-# Not to be reproduced or shared without prior written consent from Cloudera.
 
 
 import processlog as pl
@@ -28,3 +27,5 @@ if __name__ == "__main__":
 
     # Display the state and temp
     pl.display_state_temp(values[0], values[1], values[2])
+
+    print("Application completed")
